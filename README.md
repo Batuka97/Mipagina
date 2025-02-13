@@ -9,12 +9,6 @@
     </body>
     <audio controls autoplay loop>
         <source src="https://drive.google.com/uc?export=download&id=1G-SQEG4xgkwwdrguGm_3hYiEQHPmSRur" type="audio/mpeg">
-        Tu navegador no soporta el elemento de audio.
     </audio>
-    <button onclick="playAudio()" style="padding: 10px; font-size: 16px;">Reproducir música 🎵</button>
-    <script>
-        function playAudio() {
-            var audio = document.getElementById('audio');
-            audio.play();
-        }
+    <button onclick="playAudio()" style="padding: 10px; font-size: 16px;"> 
 </html>
