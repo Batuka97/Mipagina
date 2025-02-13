@@ -8,5 +8,8 @@
     <audio id="audio" loop>
         <source src="data:audio/mpeg;base64,SUQzBAAAAAAAf1RYWFgAAAASAAADbWFqb3JfYnJhbmQAZGFzaABUWFhYAAAAEQAAA21pbm9yX3ZlcnNpb24AMABUWFhYAAAAHAAA..." type="audio/mpeg">
     </body>
+        <audio controls autoplay loop>
+    <source src="https://batuka97.github.io/Mipagina/mimusica.mp3" type="audio/mpeg">
+        </audio>
 </html>
 
