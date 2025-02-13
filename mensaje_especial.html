@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Mensaje Especial</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Sorpresa! 🎉</h1>
+    <p>Contribuyendo mi creatividad, ¡¡Feliz día!!</p>
+    <img src="https://img.freepik.com/fotos-premium/perro-ramo-flores-boca_12395-1671.jpg" alt="Imagen Especial">
+    <audio id="audio" loop>
+        <source src="data:audio/mpeg;base64,SUQzBAAAAAAAf1RYWFgAAAASAAADbWFqb3JfYnJhbmQAZGFzaABUWFhYAAAAEQAAA21pbm9yX3ZlcnNpb24AMABUWFhYAAAAHAAA..." type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <button onclick="playAudio()" style="padding: 10px; font-size: 16px;">Reproducir música 🎵</button>
+    <script>
+        function playAudio() {
+            var audio = document.getElementById('audio');
+            audio.play();
+        }
+    </script>
+</body>
+</html>
